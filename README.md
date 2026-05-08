@@ -22,7 +22,6 @@ CRISIS-IQ is a smart emergency response system that analyses text emergency repo
 - Streamlit
 - SQLite
 - TextBlob
-
 - Pandas
 
 ---
