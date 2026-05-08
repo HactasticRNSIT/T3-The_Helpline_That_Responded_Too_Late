@@ -21,18 +21,18 @@ CRISIS-IQ is a smart emergency response system that analyses text emergency repo
 - FastAPI
 - Streamlit
 - SQLite
-- SpeechRecognition
 - TextBlob
-- Folium
+- Pandas
 
 ---
 
 ## 📁 Project Structure
+
 ```text
 crisisiq/
-├── agents/
-├── backend/
-├── frontend/
-├── database.db
-├── requirements.txt
-└── README.md
+│
+├── crisisiq_app.py      # Main Streamlit application
+├── crisisiq.db          # SQLite database (auto-created)
+├── requirements.txt     # Project dependencies
+├── README.md            # Project documentation
+└── .gitignore           # Ignore database/cache files
